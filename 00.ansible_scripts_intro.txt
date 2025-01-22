@@ -1,0 +1,4 @@
+1. ping playbook 
+module -  ansible.builtin.ping:
+--ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=Dharani123 01.ping.yaml
+--what ever given in hosts have high priority
