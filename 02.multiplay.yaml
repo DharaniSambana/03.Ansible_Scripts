@@ -10,6 +10,7 @@
       msg: "this is play01 task02"
 
 - name: play02
+  hosts: web
   tasks:
   - name: play02 task201
     ansible.builtin.debug:
