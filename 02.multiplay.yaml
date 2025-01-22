@@ -1,19 +1,19 @@
 - name: play01
   tasks:
-  - name: task101
-    ansible.builtin.bebug:
+  - name: play01 task101
+    ansible.builtin.debug:
       msg: "this is play01 task01"
 
-  - name: task102
-    ansible.builtin.bebug:
+  - name: play01 task102
+    ansible.builtin.debug:
       msg: "this is play01 task02"
 
 - name: play02
   tasks:
-  - name: task201
-    ansible.builtin.bebug:
+  - name: play02 task201
+    ansible.builtin.debug:
       msg: "this is play02 task01"
 
-  - name: task202
-    ansible.builtin.bebug:
+  - name: play02 task202
+    ansible.builtin.debug:
       msg: "this is play02 task02"
