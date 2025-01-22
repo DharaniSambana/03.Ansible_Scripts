@@ -1,11 +1,11 @@
-- name: to ping 36
-  hosts: 52.202.216.36
+- name: to ping localhost
+  hosts: localhost
   tasks :
-  - name: ping 36
+  - name: ping localhost
     ansible.builtin.ping:
 
-- name: to ping 34
+- name: to ping web
   hosts: web
   tasks :
-  - name: ping 34
+  - name: ping web
     ansible.builtin.ping:
