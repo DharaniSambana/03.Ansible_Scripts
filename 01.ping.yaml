@@ -9,3 +9,4 @@
   tasks :
   - name: ping web
     ansible.builtin.ping:
+

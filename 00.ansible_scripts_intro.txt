@@ -2,3 +2,7 @@
 module -  ansible.builtin.ping:
 --ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=Dharani123 01.ping.yaml
 --what ever given in hosts have high priority
+
+In each play 
+--play name , gathering facts , tasks
+--play recap - summary kind
