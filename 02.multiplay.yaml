@@ -1,5 +1,5 @@
 - name: play01
-  tasks :
+  tasks:
   - name: task101
     ansible.builtin.bebug:
       msg: "this is play01 task01"
@@ -9,7 +9,7 @@
       msg: "this is play01 task02"
 
 - name: play02
-  tasks :
+  tasks:
   - name: task201
     ansible.builtin.bebug:
       msg: "this is play02 task01"
