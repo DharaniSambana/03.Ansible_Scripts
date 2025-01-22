@@ -2,4 +2,4 @@
   hosts: localhost
   tasks :
   - name: ping localhost
-    ansible.builtin.ping
+    ansible.builtin.ping:
