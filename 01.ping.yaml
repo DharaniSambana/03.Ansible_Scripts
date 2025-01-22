@@ -3,3 +3,9 @@
   tasks :
   - name: ping localhost
     ansible.builtin.ping:
+
+- name: to ping localhost
+  hosts: web
+  tasks :
+  - name: ping localhost
+    ansible.builtin.ping:
